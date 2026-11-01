@@ -13,6 +13,10 @@ brew tap ugokkaya/tap
 brew install --cask ugokkaya/tap/snipvero
 ```
 
+If Homebrew 7 asks you to trust this cask, review `Casks/snipvero.rb` and run
+`brew trust --cask ugokkaya/tap/snipvero`, then retry. Trust is limited to this cask, not the whole
+Tap, and does not change macOS Gatekeeper settings.
+
 The cask downloads the versioned Developer ID-signed, notarized and stapled DMG from Snipvero's
 GitHub release and verifies its SHA-256. It does not disable Gatekeeper or remove quarantine.
 If you already installed Snipvero manually, quit it and back up that copy before changing the
