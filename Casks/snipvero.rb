@@ -1,6 +1,6 @@
 cask "snipvero" do
-  version "0.1.0-beta.8"
-  sha256 "4347f93c37980cab500ac4a611cb9f0e5d8591fc8330a7e330710625338dbd4b"
+  version "0.1.0-beta.9"
+  sha256 "de809546b077900420dd1e7701583b16c1de8294f4e357e79c1e06f2fa6fd379"
 
   url "https://github.com/ugokkaya/Snipvero/releases/download/v#{version}/Snipvero_#{version}_aarch64.dmg"
   name "Snipvero"
